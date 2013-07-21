@@ -1,0 +1,28 @@
+Protel Design System Design Rule Check
+PCB File : \Program Files\Altium2004\Mydesign\AD603\AD603.PcbDoc
+Date     : 2009-7-20
+Time     : 16:39:07
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net VN   is broken into 2 sub-nets. Routed To 66.67%
+     Subnet : P7-2     P7-1          Subnet : U2-2     P10-2       Violation         Net GND   is broken into 2 sub-nets. Routed To 95.24%
+     Subnet : P4-2     P4-1     C2-1     C1-1     C5-1     R1-2     U2-4     C9-1     C10-1    C8-2                   C7-2     C15-1    C14-1    P10-3    P8-3     C12-2    C13-2    C3-2     C4-2     LM336-1       Subnet : C16-1    C11-1    Rule Violations :2
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 2
+Time Elapsed        : 00:00:00
